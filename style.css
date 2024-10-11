@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Bai jamjurre", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    font-size: 30px;
+    margin: 0;
+} 
+
+button {
+    background-color: aqua;
+    color:black;
+    font-family: "Bai jsmjurre", sans-serif;
+    size-adjust: 30px;
+    font-size: 20px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
